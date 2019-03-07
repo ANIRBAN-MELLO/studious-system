@@ -1,0 +1,84 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/270695/pexels-photo-270695.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	height: 100vh;
+	background-size:cover;
+	background-position:center;
+}
+ul{
+	list-style-type: none;
+	margin-top: 15px;
+	float: left;
+	}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration: none;
+	background-color: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	font-size: 1.3em;
+}
+ul li .about:hover{
+	background-color: rgba(239, 19, 0,0.8);
+	color: white;
+}
+ul li .work:hover{
+	background-color: rgba(255, 244, 40,0.8);
+	color: white;
+}
+ul li .blog:hover{
+	background-color: rgba(0, 212, 255,0.8);
+	color: white;
+}
+ul li .contact:hover{
+	background-color: rgba(255, 38, 85,0.8);
+	color: white;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.active{
+	background-color: #007c08;
+	color: white;
+}
+
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+h1{
+	color: white;
+	font-size: 70px;
+	text-transform: uppercase;
+}
+.button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin-top: 10PX;
+	
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
